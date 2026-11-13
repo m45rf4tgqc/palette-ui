@@ -1,0 +1,30 @@
+{
+  "name": "palette-ui",
+  "version": "0.1.0",
+  "description": "Headless, accessible command palette primitives for React",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "typescript": "^5.6.0"
+  },
+  "keywords": [
+    "react",
+    "command-palette",
+    "headless",
+    "accessibility"
+  ],
+  "license": "MIT"
+}
